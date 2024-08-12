@@ -1,0 +1,75 @@
+{
+  "name": "use-quantum-state",
+  "version": "1.0.0",
+  "description": "High performance cross-component state management.",
+  "packageManager": "pnpm@9.7.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodiecollin/use-quantum-state.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint -c eslint.config.mjs src",
+    "build": "typedoc --tsconfig ./tsconfig.build.json --options ./typedoc.json ./src/index.tsx",
+    "report": "api-extractor run --typescript-compiler-folder ./node_modules/typescript --verbose"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "event",
+    "state",
+    "management",
+    "quantum",
+    "use-quantum-state",
+    "table",
+    "performance",
+    "speed",
+    "fast",
+    "cross-component"
+  ],
+  "author": "collinkokotas@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.0",
+    "@jest/globals": "^29.7.0",
+    "@microsoft/api-documenter": "^7.25.9",
+    "@microsoft/api-extractor": "^7.47.4",
+    "@testing-library/dom": "^10.3.2",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.0.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/utils": "^8.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.3.1",
+    "remark-github": "^12.0.0",
+    "remark-toc": "^9.0.0",
+    "ts-jest": "^29.2.3",
+    "turbo": "^2.0.12",
+    "typedoc": "^0.26.5",
+    "typedoc-plugin-frontmatter": "^1.0.0",
+    "typedoc-plugin-markdown": "^4.2.3",
+    "typedoc-plugin-remark": "^1.0.2",
+    "typedoc-plugin-rename-defaults": "^0.7.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.1.0",
+    "unified-prettier": "^2.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  }
+}

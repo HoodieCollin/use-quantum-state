@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not rerender unrelated peers 1`] = `
+<DocumentFragment>
+  <div
+    data-value="1"
+  >
+    Item
+  </div>
+  <div>
+    Unrelated | count: 0
+  </div>
+</DocumentFragment>
+`;
+
+exports[`does not rerender unrelated peers 2`] = `
+<DocumentFragment>
+  <div
+    data-value="2"
+  >
+    Item
+  </div>
+  <div>
+    Unrelated | count: 0
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    data-value="1"
+  />
+</DocumentFragment>
+`;
+
+exports[`supports custom values 1`] = `
+<DocumentFragment>
+  <div
+    data-value="3"
+  />
+</DocumentFragment>
+`;
+
+exports[`supports synced peers 1`] = `
+<DocumentFragment>
+  <div
+    data-value="1"
+  >
+    Item
+  </div>
+  <div>
+    1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`supports synced peers 2`] = `
+<DocumentFragment>
+  <div
+    data-value="2"
+  >
+    Item
+  </div>
+  <div>
+    2
+  </div>
+</DocumentFragment>
+`;
